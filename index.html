@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>css project</title>
+  <style>
+    img{
+        border: 3px slategrey;
+    }
+    .marquee{
+        overflow: hidden;
+        position: relative;
+        animation: ani;
+    }
+    header{
+        border: 1px ridge #53465e;
+        color: #53465e;
+        font-style: oblique;
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color: khaki;
+    }
+    nav{
+      margin-top: 5%;
+    }
+    a.link{
+      color: black;
+    }
+    a:visited{
+      color: lightcoral;;
+    }
+    a:active{
+      color:midnightblue;
+    }
+    #link1{
+      margin-left: 5%;
+    }
+    #link2{
+      margin-left: 5%;
+    }
+    #link3{
+      margin-left: 5%;
+    }
+    #link4{
+      margin-left: 5%;
+    }
+    #link5{
+      margin-left: 5%;
+    }
+    @keyframes ani{
+      0%(right: -100%)
+      100%(right: -100%)
+    }
+    body{
+      background-image: ur1("html/backhtml.jpeg") ;
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    } 
+  </style>
+</head>
+<body background="html/backhtml.jpeg">
+    <marquee behavior="" direction="rigth">
+    <img src="html/logocss.jpg" controls height="200px" width="200px" alt=""></marquee><br><br>
+    <br><br>
+</marquee>
+<font size="6">
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <a href="myselfcss.html" target="_blank">About myself</a> &nbsp; &nbsp; &nbsp;
+  <a href="educationcss.html" target="_blank">Education details</a>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+  <a href="live project.html" target="_blank">Project details</a>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+  <a href="certificatescss.html" target="_blank">Certificates</a>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+  <a href="contactcss.html" target="_blank">Contact Info</a>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+</font>
+  <center>
+    <font size="55">
+      <header>WELCOME TO MY ANTHOLOGY</header>
+
+    </font>
+  </center>
+  <center>
+    <nav><a href="myselfcss.html" target="_blank">GET STARTED</a></nav>
+    
+  </center>
+
+</body>
+</html>
